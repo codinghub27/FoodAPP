@@ -1,0 +1,31 @@
+{% extends 'myapp/base.html' %}
+
+{% block body %}
+
+<div class ="m-10 flex" >
+    <div>
+        <img class="w-128 rounded-lg " src="{{item.item_image}}">
+    </div>
+    <div class="space-y-2 mx-16">
+                <div class="text-4xl font-bold">
+                    {{ item.item_name }}
+                </div>
+                <div class="text-lg">
+                    {{ item.item_desc }}
+                </div>
+                <div class="text-green-700 font-bold text-xl">
+                    ${{ item.item_price }}
+                </div>
+
+        <div>
+         {% if item.user_name == request.user %}
+            <a class="bg-yellow-500 px-4 py-2 rounded-md font-bold text-white hover:bg-violet-600" href="{% url 'myapp:update' item.id%}">Edit</a>
+            <a class="bg-red-500 px-4 py-2 rounded-md font-bold text-white" href="{% url 'myapp:delete' item.id%}">Delete</a>
+            {% endif %}
+
+        </div>
+
+    </div>
+</div>
+
+{% endblock %}

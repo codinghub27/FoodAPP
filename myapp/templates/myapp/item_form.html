@@ -1,0 +1,29 @@
+{% extends 'myapp/base.html' %}
+{% block body %}
+
+<div class=" flex flex-col justify-center items-center min-h-screen p-10">
+    <h1>Add Item</h1>
+    {{form.errors}}
+    <form method="POST" class="shadow-lg p-10 space-y-10 p-5 w-80">
+    {% csrf_token %}
+
+
+    {% for field in form %}
+        <div>
+            <label>{{field.label}}</label>
+            <div class="border rounded">{{field}}</div>
+
+        </div>
+
+
+        {% endfor %}
+        <button class="px-2 py-2 w-full bg-sky-700 text-white" type="submit">Add Item</button>
+
+
+
+    </form>
+</div>
+
+
+{% endblock %}
+
