@@ -1,0 +1,86 @@
+[
+{
+  "model": "myapp.item",
+  "pk": 2,
+  "fields": {
+    "user_name": 1,
+    "item_name": "Pizza",
+    "item_desc": "cheesy pizza",
+    "item_price": "15.00",
+    "item_image": "https://img.freepik.com/premium-photo/top-view-empty-white-plate-meal-blank-plate-serving-food-composition-with-sun-dried-tomatoes-bruschetta-utensils-wooden-background-flat-lay_207126-3658.jpg",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "myapp.item",
+  "pk": 4,
+  "fields": {
+    "user_name": 1,
+    "item_name": "Burger",
+    "item_desc": "cheesy Burger",
+    "item_price": "10.00",
+    "item_image": "https://images.themodernproper.com/production/posts/2016/ClassicCheeseBurger_9.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1749310239&s=463b18fc3bb51dc5d96e866c848527c4",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "myapp.item",
+  "pk": 6,
+  "fields": {
+    "user_name": 1,
+    "item_name": "Waffle",
+    "item_desc": "Choco Waffle",
+    "item_price": "15.00",
+    "item_image": "https://img.freepik.com/premium-photo/top-view-empty-white-plate-meal-blank-plate-serving-food-composition-with-sun-dried-tomatoes-bruschetta-utensils-wooden-background-flat-lay_207126-3658.jpg",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "myapp.item",
+  "pk": 7,
+  "fields": {
+    "user_name": 1,
+    "item_name": "Shawarma",
+    "item_desc": "Chicken Shawarma",
+    "item_price": "10.00",
+    "item_image": "https://img.freepik.com/premium-photo/top-view-empty-white-plate-meal-blank-plate-serving-food-composition-with-sun-dried-tomatoes-bruschetta-utensils-wooden-background-flat-lay_207126-3658.jpg",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "myapp.item",
+  "pk": 8,
+  "fields": {
+    "user_name": 1,
+    "item_name": "JWT",
+    "item_desc": "Chicken Shawarma",
+    "item_price": "10.00",
+    "item_image": "https://img.freepik.com/premium-photo/top-view-empty-white-plate-meal-blank-plate-serving-food-composition-with-sun-dried-tomatoes-bruschetta-utensils-wooden-background-flat-lay_207126-3658.jpg",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+},
+{
+  "model": "myapp.item",
+  "pk": 9,
+  "fields": {
+    "user_name": 1,
+    "item_name": "roll",
+    "item_desc": "rolling chicken",
+    "item_price": "5.00",
+    "item_image": "https://img.freepik.com/premium-photo/top-view-empty-white-plate-meal-blank-plate-serving-food-composition-with-sun-dried-tomatoes-bruschetta-utensils-wooden-background-flat-lay_207126-3658.jpg",
+    "is_available": true,
+    "is_deleted": false,
+    "deleted_at": null
+  }
+}
+]
