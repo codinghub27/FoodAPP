@@ -493,3 +493,9 @@ Set `SECRET_KEY`, `DATABASE_URL`, `ALLOWED_HOSTS` (your domain) and the `DJANGO_
 [Portfolio](https://sravan-kumar-portfolio-umber.vercel.app/) · [LinkedIn](https://in.linkedin.com/in/sravan-n-1a32943aa) · [Email](mailto:sravannkumard@gmail.com)
 
 Built to practice full-stack Django: server-rendered pages, Django REST Framework, JWT auth, custom managers, permissions and middleware.
+
+---
+
+## 📜 License
+
+Released under the [MIT License](LICENSE).
